@@ -1,0 +1,65 @@
+.account_header {
+	padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.imgAcc{
+	position: relative;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 12%;
+	height: 12%;
+	object-fit: contain;
+  }
+
+.username {
+  background-color: white;
+	padding-bottom: 10px;
+}
+
+menuButton {
+  display: inline-flex;
+  padding-bottom: 10px
+}
+
+.userdata{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 10px;
+}
+
+.userdata-container {
+    text-align: center;
+    color: rgba(130,106,70,255);
+    width: 300px;
+    border-color: white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border-radius: 6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 600;
+}
+
+.button_logOut {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: red;
+    border-color: red;
+    border-radius: 4px;
+    border-radius: 6px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 600;
+}
